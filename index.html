@@ -57,16 +57,11 @@
               <!-- Paper authors -->
               <!-- Yan Tian, Long Xing, Weiping Ding, Ruili Wang, M. Hassaballah, Karen Eguiazarian, Leszek Rutkowski -->
               <span class="author-block">
-                <a href="https://scholar.google.com/citations?hl=en&user=BB2GTFoAAAAJ" target="_blank">Yan Tian</a>,</span>
-                <span class="author-block">
-                  <a href="https://github.com/longxinglx" target="_blank">Long Xing</a>,</span>
-                  <span class="author-block">
-                    <a href="https://sites.google.com/view/weipingding" target="_blank">Weiping Ding</a>
-                  </span>
+                <a href="" target="_blank">Anonymous Authors</a>,</span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Zhejiang Gongshang University</span>
+                    <span class="author-block">Anonymous</span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -76,7 +71,7 @@
                         <!-- TODO: 论文链接待修改 -->
                         <!-- <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark"> -->
-                        <a href="https://longxinglx.github.io/3DGSSeg/" target="_blank"
+                        <a href="" target="_blank"
                           class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -92,7 +87,7 @@
                   <span class="link-block">
                     <!-- <a href="https://github.com/YOUR REPO HERE" target="_blank"
                     class="external-link button is-normal is-rounded is-dark"> -->
-                    <a href="https://longxinglx.github.io/3DGSSeg/" target="_blank"
+                    <a href="" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -144,7 +139,7 @@
       <!-- Your image here -->
       <img src="static/images/framework.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
-        An illustration of the proposed approach.
+        Figure 2: An illustration of the proposed approach.
       </h2>
       <div class="content has-text-justified">
         <p>
@@ -165,13 +160,19 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
+            <!-- Instance segmentation in an oral scenario plays an important role in the dental digitization process.
+            3D Gaussian Splatting (3DGS) has emerged as an effective approach to real-time 3D segmentation tasks.
+            However, existing methods lack detailed comprehension of the scenes, which limits their ability to segment and interpret complex structures. Furthermore, it is difficult to integrate multimodal data to maintain semantic consistency across the 3D spatial and 2D image domains, degrading the quality of open-vocabulary oral instance segmentation.
+            To this end, a multi-granularity 3D-image-text alignment approach is proposed, including a hierarchical feature distillation (HFD) module and a multimodal semantic alignment (MSA) module.
+            HFD learns hierarchical instance features from 2D foundation models to enhance the 3D perception capability, while MSA aligns text embeddings with multi-granularity information of 3D Gaussians and their rendered instances and hierarchical maps.
+            The experimental results on two oral segmentation datasets indicate that our approach improves multiview consistency, semantic perception, and text fidelity by a margin compared to the prevailing approaches. -->
             Instance segmentation in an oral scenario plays an important role in the dental digitization process. 
-            3D Gaussian splatting (3DGS) has emerged as an effective approach to real-time 3D segmentation. 
-            However, existing methods lack detailed comprehension of the scenes, limiting their ability to segment and interpret complex structures. 
-            Furthermore, it is difficult to integrate multimodal data to maintain semantic consistency across the 3D spatial and 2D image domains, degrading the quality of open-vocabulary segmentation. 
-            A multi-granularity 3D-image-text alignment approach is proposed for open vocabulary tooth instance segmentation, including a hierarchical feature distillation (HFD) module and a multimodal semantic alignment (MSA) module. 
-            HFD learns hierarchical instance features from 2D foundation models to enhance the 3D perception capability, and MSA aligns text embeddings with multi-granularity information of 3D Gaussians and their rendered instance and hierarchical maps. 
-            The experimental results on two tooth segmentation datasets indicate that our approach improves multiview consistency by a margin compared to prevailing approaches.
+            3D Gaussian Splatting (3DGS) has emerged as an effective approach to real-time 3D segmentation tasks. 
+            However, existing methods lack detailed comprehension of the scenes, which limits their ability to segment and interpret complex structures. 
+            Furthermore, it is difficult to integrate multimodal data to maintain semantic consistency across the 3D spatial and 2D image domains, degrading the quality of open-vocabulary oral instance segmentation. 
+            To this end, a multi-granularity 3D-image-text alignment approach is proposed, including a hierarchical feature distillation (HFD) module and a multimodal semantic alignment (MSA) module. 
+            HFD learns hierarchical instance features from 2D foundation models to enhance the 3D perception capability, while MSA aligns text embeddings with multi-granularity information of 3D Gaussians and their rendered instances and hierarchical maps. 
+            The experimental results on two oral segmentation datasets indicate that our approach improves multiview consistency, semantic perception, and text fidelity by a margin compared to the prevailing approaches. 
           </p>
         </div>
       </div>
@@ -187,18 +188,28 @@
     <div class="container">
       <h2 class="title is-3">Methods</h2>
       <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/Hierarchical feature distillation.png" alt="MY ALT TEXT"/>
+       <!-- <div class="item">
+        <img src="static/images/HFD.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Hierarchical feature distillation.
+          An illustration of hierarchical feature distillation.
         </h2>
       </div>
      <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/Multimodal semantic alignment.png" alt="MY ALT TEXT"/>
+      <img src="static/images/MSA.png" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
-        Multimodal semantic alignment.
+        An illustration of multimodal semantic alignment.
+      </h2>
+    </div> -->
+    <div class="item has-text-centered">
+      <img src="static/images/HFD.png" alt="MY ALT TEXT" style="display: inline-block;" />
+      <h2 class="subtitle has-text-centered">
+        Figure 3: An illustration of hierarchical feature distillation.
+      </h2>
+    </div>
+    <div class="item has-text-centered">
+      <img src="static/images/MSA.png" alt="MY ALT TEXT" style="display: inline-block;" />
+      <h2 class="subtitle has-text-centered">
+        Figure 4: An illustration of multimodal semantic alignment.
       </h2>
     </div>
   </div>
@@ -214,6 +225,17 @@
     <div class="container">
       <h2 class="title is-3">Example</h2>
       <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+          <!-- Your image here -->
+          <!-- <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+            Second image description.
+          </h2> -->
+          <img src="static/images/ab_effect.png" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+            Figure 5: Evaluation of the proposed modules on the Shining3D oral segmentation dataset.
+          </h2>
+        </div>
        <div class="item">
         <!-- Your image here -->
         <!-- <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
@@ -222,7 +244,7 @@
         </h2> -->
         <img src="static/images/good.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Qualitative comparisons between LangSplat, CLIP2Scene, OpenGaussian, and our approach on the Shining3D oral segmentation dataset are illustrated.
+          Figure 7: Qualitative comparisons between LangSplat, CLIP2Scene, OpenGaussian, and our approach on the Shining3D oral segmentation dataset are illustrated.
         </h2>
       </div>
       <div class="item">
@@ -231,9 +253,20 @@
         <h2 class="subtitle has-text-centered">
           Second image description.
         </h2> -->
-        <img src="static/images/ab_effect.png" alt="MY ALT TEXT"/>
+        <img src="static/images/bad.png" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
-          Evaluation of the proposed modules on the Shining3D oral segmentation dataset.
+          Figure 9: Illustration of the drawbacks in our approach.
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <!-- <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Second image description.
+        </h2> -->
+        <img src="static/images/Segmentation_results_in_3D_Gaussian_novel_views.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Figure 10: Segmentation results in 3D Gaussian novel views.
         </h2>
       </div>
   </div>
@@ -241,6 +274,27 @@
 </div>
 </section>
 <!-- End image carousel -->
+
+<!-- Quantitative Comparison -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Quantitative Comparison</h2>
+      <!-- <div class="item">
+      <img src="static/images/Quantitative_Comparison.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        Effectiveness comparison of the Shining3D oral segmentation dataset and the Aoralscan3 oral segmentation dataset. 
+      </h2> -->
+      <div class="item has-text-centered">
+        <img src="static/images/Quantitative_Comparison.png" alt="MY ALT TEXT" style="display: inline-block;" />
+        <h2 class="subtitle has-text-centered">
+          Table 2: Effectiveness comparison of the Shining3D oral segmentation dataset and the Aoralscan3 oral segmentation dataset. 
+        </h2>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
 
 
 <!-- Youtube video -->
